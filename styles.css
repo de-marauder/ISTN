@@ -176,7 +176,8 @@ ul {
 
 .grid>.up,
 .grid>.down {
-  border: 0px solid;
+  /* border: 0px solid; */
+  background-color: #000;
 }
 
 .shadow {
@@ -252,7 +253,7 @@ ul {
     url(./images/bg-hero-desktop.svg),
     /* linear-gradient(to right, */
       /* var(--very-dark-cyan) 0%, */
-      hsl(0, 0%, 55%, .5);
+      #00b79d;
        /* 80%); */
   /* var(--very-dark) 50%); */
   background-repeat: no-repeat;

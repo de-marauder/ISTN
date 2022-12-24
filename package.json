@@ -1,0 +1,11 @@
+{
+  "name": "istn",
+  "version": "1.0.0",
+  "description": "A business advert page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "de-marauder",
+  "license": "ISC"
+}
