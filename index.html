@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="stuff.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bf571eabc4.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 </head>
@@ -23,20 +29,20 @@
                 <nav class="main-nav">
                     <img src="img/new-images/logo-no-bg.png" alt="Huddle" class="logo">
                     <ul class="main-menu ">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
     
                     </ul>
                 </nav>
-                <div class="showcase">
+                <div id="home" class="showcase">
 
                     <div class="box">
                         <div class="header-text">
-                            <h1>The Ultimate Breakfast Cereal<br>Discover the Power of Nature<br>From our farms straight
-                                to your table
+                            <h1>Want a cereal that tastes great? Try this!
                             </h1>
-                            <p>Start with a small bowl of cereal for breakfast. Then get it in larger portions for
+                            <p>Discover the power of nature; from our farms straight
+                                to your table. Start with a small bowl of cereal for breakfast. Then get it in larger portions for
                                 snacks that fit in your bag or lunch box and take to the office. From breakfast to
                                 dessert, we have something you'll like.
 
@@ -77,6 +83,7 @@
             </section>
 
         </header>
+        <section class="animate">
         <section class="features">
             <div class="text">
                 <h3>
@@ -84,40 +91,36 @@
                 </h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Beatae possimus quia delectus iure accusantium inventore,
-                    consequuntur laborum eligendi a doloribus qui ad? Beatae nisi
-                    in fugiat quis unde doloribus non.
                 </p>
             </div>
             <div class="smallfeatures">
                 <div>
                     <img src="./img/lucia-tognacci-y3w8WZ6uJWI-unsplash-removebg-preview.png" alt="" width="50%">
                     <h3>
-                        Made with the finest ingredients
+                        The finest ingredients
                     </h3>
                     <p>
-                        This cereal is made with locally sourced products in Nigeria. and at best, these crops are grown
+                        This cereal is made with locally sourced products in Nigeria. The crops are grown
                         with the finest resources keeping them away from toxins
                     </p>
                 </div>
                 <div>
                     <div>
                         <img src="./img/nature-zen-ViScW8_wJSg-unsplash-removebg-preview (2).png" alt="" width="50%">
-                        <img src="./img/product-pic-removebg-preview.png" alt="" width="3%">
                     </div>
                     <h3>
                         Ultra Satisfaction
                     </h3>
                     <p>
-                        have you ever eaten a cerweal and got hungry again within two hours? Well, this wont happen with
-                        our cereal which can last in your tummy for max, 4hours
+                        Ever eaten a cereal and got hungry almost immediately? This won't happen with
+                        our cereal which can sustain you for hours
                     </p>
                 </div>
                 <div>
-                    <img src="./img/brenda-godinez-CrK843Pl9a4-unsplash-removebg-preview.png" alt="" width="50%"
+                    <img src="./img/brenda-godinez-CrK843Pl9a4-unsplash-removebg-preview (1).png" alt="" width="50%"
                         class="smallimg">
                     <h3>
-                        Turn it into a protein shake
+                        Make it a protein shake
                     </h3>
                     <p>
                         Our cereal is made in such a way that it can be used as protein shake
@@ -125,6 +128,8 @@
                 </div>
             </div>
         </section>
+    </section>
+    <section class="animate">
         <section class="details">
             <div class="frames">
                 <div class="div1">
@@ -164,7 +169,9 @@
                 </div>
             </div>
         </section>
-        <section class="about-us">
+    </section>
+    <section class="animate">
+        <section id="about" class="about-us">
             <div>
                 <h1>
                     About Us
@@ -187,15 +194,11 @@
                     </svg>
 
                 </div>
-                <!-- <div class="book">
-                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                        preserveAspectRatio="none">
-                        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
-                    </svg>
-                </div> -->
             </div>
         </section>
-        <section class="vision">
+    </section>
+    <section class="animate">
+        <section class="frames1-wrapper" id="vision">
             <div class="frames1">
                 <div>
                     <h1>Our Vision</h1>
@@ -210,19 +213,14 @@
                     </p>
                 </div>
                 <div class="div2">
-                    <div class="img_icon">
+                    <div id="one" class="img_icon">
                         <img src="./img/images/illustration-flowing-conversation.svg" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="Approach">
+        <section class="frames1-wrapper" id="Approach">
             <div class="frames1">
-                <div class="div2">
-                    <div class="img_icon">
-                        <img src="./img/images/illustration-your-users.svg" alt="">
-                    </div>
-                </div>
                 <div>
                     <h1>Our Approach</h1>
                     <p>
@@ -231,20 +229,25 @@
                         We believe that every family can at least have a complete nutritious whole meal in a
                         day.<br><br>
                         A meal comprising of healthy organic grains easily sourced from our country Nigeria.<br><br>
-
+                        
                         ISTN cereal is an adaptation of the widely researched and
                         internationally acclaimed Tom Brown cereal that is rich in protein, iron, carbohydrate,
                         calcium, magnesium, copper, potassium, vitamin B6 and B12.
                     </p>
                 </div>
+                <div class="div2">
+                    <div class="img_icon">
+                        <img src="./img/images/illustration-your-users.svg" alt="">
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="process">
+        <section class="frames1-wrapper" id="process">
             <div class="frames1">
                 <div>
                     <h1>Our Process</h1>
                     <p>
-                        ISTN is a family-owned cereal company based in Nigeria. Our mission is to create the need for
+                        ISTN is a famcontactily-owned cereal company based in Nigeria. Our mission is to create the need for
                         every household to have a complete nutritious meal in a day. We do this by sourcing the finest
                         blend of organic grains from our country, Nigeria,
                         making it easy for everyone to get a balanced meal.<br><br>
@@ -262,6 +265,7 @@
                 </div>
             </div>
         </section>
+    </section>
     </div>
         <footer class="footer">
             <div class="footer-text">
@@ -290,7 +294,7 @@
                     <li>Terms & Conditions</li>
                     <li>Privacy Policy</li>
                 </ul>
-                <div class="footer-img">
+                <div id="contact" class="footer-img">
                     <a href="#">
                         <iconify-icon icon="ic:baseline-facebook" width="30" height="30"></iconify-icon>
                     </a>
@@ -303,6 +307,7 @@
                 </div>
             </div>
         </footer>
+        <script src="stuff.js"></script>
 </body>
 
 </html>
