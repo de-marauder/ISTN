@@ -57,39 +57,38 @@ a {
 .showcase .box {
     display: grid;
     gap: 8%;
-    align-items: stretch;
+    align-items: flex-start;
     grid-template-columns: repeat(2, 1fr);
 
 }
-
+  
 /**!nav */
 .main-nav {
     display: flex;
     align-items: center;
-    padding: 3%;
 }
 
 .main-nav .logo {
-    width: 130px;
+    width: 100px;
     padding-left: 5%;
 }
 
 .main-nav ul {
     display: flex;
     justify-content: flex-end;
+    padding: 3%;
 }
 
 .main-nav ul li {
     padding: 0 10px;
 }
 
-
 .main-nav ul li a {
     padding-bottom: 2px;
 }
 
 .main-nav ul li a:hover {
-    border-bottom: 2px solid #262626;
+    border-bottom: 2px solid brown;
 }
 
 .main-nav ul.main-menu {
@@ -117,7 +116,7 @@ a {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    margin-top: 25%;
+    /* margin-top: 25%; */
     font-weight: bold;
     padding: 10px 20px;
     background: #262626;
@@ -177,7 +176,7 @@ a {
     font-size: 17px;
     line-height: 1.7;
     margin-bottom: 7%;
-    text-align: left;
+
     font-family: 'Roboto Mono', monospace;
 
 }
@@ -218,7 +217,7 @@ a {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 169px;
+    /* height: 169px; */
 }
 
 .wave .shape-fill {
@@ -262,7 +261,7 @@ a {
 }
 
 .smallfeatures p {
-    text-align: left;
+    /* text-align: left; */
     line-height: 1.7;
     font-size: 17px;
     font-weight: 100;
@@ -272,7 +271,9 @@ a {
 
 .features .text {
     margin-top: 5%;
-    width: 50%;
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
 }
 
 .text h3 {
@@ -283,6 +284,7 @@ a {
 .text p {
     margin-bottom: 3%;
     font-size: 18px;
+    line-height: 2.3;
 }
 
 /**!card-details */
@@ -328,7 +330,7 @@ a {
 }
 
 .div1 img {
-    margin-top: 10%;
+    margin-top: 30%;
     padding-left: 10%;
     width: 100%;
     height: 70%;
@@ -366,19 +368,30 @@ a {
 .about-us p {
     font-size: 32px;
 }
-
+.div2{
+    width: 50%;
+}
 .div2 img {
     padding-left: 10%;
     width: 100%;
     height: 100%;
     margin-top: 23%;
+    aspect-ratio: 18/20;
     filter: drop-shadow(4px 45px 26px #A69E94);
 }
+/* #third{
+    height: 60%;
+} */
+/* #text-height .frames1-wrapper{
+    margin-bottom: 12%;
+} */
 
 .frames1 {
     /* display: grid; */
     display: flex;
+    flex: 1;
     gap: 15%;
+    align-items: flex-end;
     /* grid-template-columns: repeat(2,1fr); */
     margin-top: 5%;
     padding-left: 10%;
@@ -393,13 +406,26 @@ a {
     border: 2px solid red; */
 }
 
+#vision, #Approach{
+    margin-bottom: 12%;
+}
 .frames1 h1 {
     font-size: 40px;
-    margin-bottom: 7%;
+    margin-bottom: 3%;
 }
 
 .frames1 p {
     line-height: 1.9;
+}
+#text-width{
+    width: 50%;
+}
+#text-width1{
+    width: 50%;
+    margin-bottom: 8%;
+}
+#text-height{
+    margin-bottom: 8%;
 }
 
 /* *!footer */
@@ -413,15 +439,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 9.5%;
 }
 
 .inner {
     padding-right: 13%;
-}
-
-.footer-text {
-    padding-top: 5%;
-    padding-left: 9%;
 }
 
 .footer-text1 {
@@ -430,15 +453,19 @@ a {
     justify-content: space-between;
 }
 
-.footer-text2 {
+.footer-text1 ul {
+    padding: 0 90px;
+    display: flex;
+}
+.footer-text1 ul li{
+    padding: 0 10px;
+}
+
+/* .footer-text2 {
     display: flex;
     align-items: center;
 }
 
-.footer-text1 ul {
-    padding: 0 90px;
-
-}
 
 .footer-text2 li {
     margin-right: 6%;
@@ -474,7 +501,7 @@ a {
 
 .leftFooterLinks li {
     margin-left: 4%;
-}
+} */
 
 .showcase-email {
     display: flex;
@@ -548,7 +575,7 @@ a {
         left: 0;
         background: #fff0de;
         width: 50%;
-        height: 100%;
+        height: 50%;
         opacity: 0.9;
         padding: 30px;
         transform: translateX(-500px);
@@ -568,6 +595,9 @@ a {
 
     .main-nav ul.main-menu li:last-child {
         border-bottom: 0;
+    }
+    .showcase .box{
+        align-items: stretch;
     }
 
     .header-img img {
@@ -592,6 +622,7 @@ a {
         grid-template-columns: 1fr;
         gap: 10px;
         place-items: center;
+        margin-top: 20%;
     }
 
     .div1 img {
@@ -640,9 +671,10 @@ a {
     }
     .header-img{
         text-align: center;
+        padding-left: 8%;
     }
     .card {
-        width: 230px;
+        width: 300px;
     }
 
     div1 img {
@@ -654,7 +686,7 @@ a {
     }
 
     .card-item {
-        max-width: 250px
+        max-width: 300px
     }
 
 
@@ -690,4 +722,23 @@ a {
     .leftFooterLinks {
         display: none;
     }
+    .footer-text1 ul{
+        padding: 0;
+    }
+    #text-width{
+        width: 100%;
+    }
+    #text-width1{
+        width: 100%;
+    }
+    .div2{
+        width: 100%;
+    }
+    .div2 img{
+        padding-left: 0;
+    }
+    .main-nav .logo {
+        width: 70px;
+   
+}
 }
