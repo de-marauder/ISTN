@@ -525,7 +525,9 @@ a {
         gap: 5%;
         place-items: center;
     }
-
+.showcase .box{
+    align-items: center;
+}
     .div1 img {
         padding: 0;
     }
