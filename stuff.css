@@ -649,7 +649,7 @@ a {
     .div2 img{
         padding-left: 0;
         margin-bottom: 10%;
-        aspect-ratio: 0
+        aspect-ratio: 1
     }
 
     .card {
