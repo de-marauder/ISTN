@@ -82,6 +82,11 @@ a {
 
 }
 
+#how-to-make li,
+#how-to-make p {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
 #how-to-make li {
     text-align: left;
     margin-bottom: 1rem;
