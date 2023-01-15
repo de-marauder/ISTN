@@ -438,7 +438,7 @@ a {
     display: flex;
     flex: 1;
     gap: 5%;
-    align-items: centers;
+    align-items: center;
     /* grid-template-columns: repeat(2,1fr); */
     margin-top: 5%;
     padding-left: 10%;
